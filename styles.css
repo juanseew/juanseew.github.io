@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .intera{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .volver button{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: #000000fb;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .volver button:hover{
+    transform: scale(1.2);
+}
+  
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+  .page {
+    margin: 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: linear-gradient( to left, rgba(253, 0, 0, 0.527), rgba(38, 0, 255, 0.466));
+    width: 90vw;
+    max-width: 100%;
+    height: 550px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .page h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: solid;
+  }
+
+  .page img{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    max-width: 80%;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 5%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .page img:hover{
+    transform: scale(1.1);
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+ .navigation button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .infor{
+    margin-top: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+  }
+  
+  .infor img{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    
+    .page img{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 290px;
+        height: 250px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10%;
+      }
+
+      .infor img{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 300px;
+        height: 100px;
+        margin-left: 20px;
+        border-radius: 10px;
+      }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    
+
+    .page{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .page img{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 220px;
+        height: 220px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 15%;
+      }
+
+      .infor img{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 300px;
+        height: 100px;
+        margin-left: 20px;
+        border-radius: 10px;
+      }
+    
+  }
+
+  @media screen and (max-width: 463px) {
+    
+    .page{
+        margin-left: 10%;
+      }
+    .page img{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 15%;
+      }
+
+      .infor img{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 250px;
+        height: 90px;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-top: 5%;
+      }
+    
+  }
+
+  @media screen and (max-width: 320px) {
+    
+    .page{
+        margin-left: 14%;
+      }
+
+    .page img{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 140px;
+        height: 140px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 20%;
+      }
+
+      .infor img{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 250px;
+        height: 90px;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-top: 5%;
+      }
+
+      .page h1{
+        font-size: 40px;
+      }
+      
+    
+  }
